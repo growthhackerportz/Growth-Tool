@@ -27,10 +27,7 @@ a:visited {
   grid-gap: 10px;
   grid-auto-rows: minmax(50px, auto);
 }
-.footer-logo {
-  grid-column: 2;
-  grid-row: 1;
-}
+
 .copyright {
   grid-column: 1;
   grid-row: 1;
@@ -38,15 +35,7 @@ a:visited {
   vertical-align: bottom;
   padding-top:15px;
 }
-.social {
-  grid-column: 4;
-  grid-row: 1;
-  text-align:center;
-  padding-top:15px;
-  font-weight: bold;
-  font-size:14px;
-  align:left;
-}
+
   
 @media all and (max-width: 1400px)  {	
   .wrapper {
@@ -55,26 +44,15 @@ a:visited {
   grid-gap: 10px;
   grid-auto-rows: minmax(100px, auto);
 }
-.footer-logo {
-  grid-column: 1;
-  grid-row: 1;
-}
+
 .copyright {
   grid-column: 2;
   grid-row: 1;
   font-size:12px;
   vertical-align: middle;
   padding-top:15px;
-}
-.social {
-  grid-column: 3;
-  grid-row: 1;
-  text-align:center;
-  padding-top:15px;
-  font-weight: bold;
-  font-size:14px;
-  align:left;
-}
+}}
+
   
 @media all and (max-width: 1100px)  {	
   .wrapper {
@@ -83,25 +61,11 @@ a:visited {
   grid-gap: 10px;
   grid-auto-rows: minmax(50px, auto);
 }
-.footer-logo {
-  grid-column: 1;
-  grid-row: 1;
-  vertical-align: middle;
-  text-align:center;
-}
+
 .copyright {
   grid-column: 1;
   grid-row: 3;
   font-size:12px;
-  vertical-align: middle;
-  text-align:center;
-}
-.social {
-  grid-column: 1;
-  grid-row: 2;
-  text-align:center;
-  font-weight: bold;
-  font-size:14px;
   vertical-align: middle;
   text-align:center;
 }
@@ -113,7 +77,6 @@ a:visited {
   <div id="footer">
        
     <div class="wrapper">
-    <hr>
       <div class="copyright">Growth Tool &copy;<script>new Date().getFullYear()>2010&&document.write(new Date().getFullYear());</script>. All rights reserved.</div>
       {% include analytics.html %}
     </div>
